@@ -1,7 +1,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: rgb(236, 76, 139);
   color: #fff;
 }
@@ -10,7 +10,7 @@ nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .countriesContainer {
@@ -31,7 +31,7 @@ nav ul {
 }
 
 .card:nth-child(even) {
-  background-color: rgb(207, 66, 120);
+  background-color: rgb(207, 66, 120); /* Second and third cards */
 }
 
 .card p {
@@ -39,7 +39,85 @@ nav ul {
   padding-right: 20px;
 }
 
-.card img {
+.card .flag {
   width: 300px;
   height: 200px;
+}
+
+.card a {
+  align-self: flex-end;
+  margin-right: 20px;
+}
+
+.pollutionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.pollutionContainer h3 {
+  width: 100%;
+  background-color: rgb(207, 66, 120);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.pollutionContainer ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100%;
+}
+
+.pollutionContainer ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  background-color: rgb(219, 70, 129);
+}
+
+.pollutionContainer ul li:nth-child(even) {
+  background-color: rgb(207, 66, 120);
+}
+
+.countryDetails {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(219, 70, 129);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.countryDetails p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+
+.searchContainer {
+  display: flex;
+  gap: 2rem;
+  grid-column: span 2;
+  background-color: rgb(219, 70, 129);
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.searchContainer input {
+  padding: 0.3rem 0.1rem;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.searchContainer button {
+  padding: 0.3rem 0.5rem;
+  border: none;
+  border-radius: 5px;
 }
