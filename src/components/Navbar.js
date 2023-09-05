@@ -8,7 +8,7 @@ const Navbar = () => (
     <Link to="/">
       <img src={leftArrow} alt="" />
     </Link>
-    <span>most views</span>
+    <span>Air Pollution</span>
     <ul>
       <li>
         <img src={mic} alt="" />

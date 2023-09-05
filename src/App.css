@@ -4,6 +4,10 @@ nav {
   padding: 10px 20px;
   background-color: rgb(236, 76, 139);
   color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 nav ul {
@@ -19,6 +23,7 @@ nav ul {
   align-items: center;
   justify-content: center;
   color: #fff;
+  margin-top: 45px;
 }
 
 .card {
