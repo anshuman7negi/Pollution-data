@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component matches snapshot 1`] = `
+<DocumentFragment>
+   
+  <nav>
+    <a
+      href="/"
+    >
+      <img
+        alt=""
+        src="back-button.png"
+      />
+    </a>
+    <span>
+      Air Pollution
+    </span>
+    <ul>
+      <li>
+        <img
+          alt=""
+          src="microphone-black-shape.png"
+        />
+      </li>
+      <li>
+        <img
+          alt=""
+          src="setting.png"
+        />
+      </li>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;
