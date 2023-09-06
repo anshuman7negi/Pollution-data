@@ -64,8 +64,11 @@ const Pollution = () => {
             <span>Сoncentration of NH3 Ammonia:</span>
             <span>{pollutionData?.components.nh3}</span>
           </li>
+          <li>
+            <span>Air Quality:</span>
+            <span>{pollutionData?.main.aqi >= 4 ? 'Poor' : 'Good'}</span>
+          </li>
         </ul>
-
       </div>
     );
   }

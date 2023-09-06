@@ -31,12 +31,16 @@ nav ul {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  background-color: rgb(219, 70, 129);
   padding: 10px;
+  cursor: pointer;
 }
 
-.card:nth-child(even) {
-  background-color: rgb(207, 66, 120); /* Second and third cards */
+.card:nth-child(4n), .card:nth-child(4n+3) {
+  background-color: rgb(219, 70, 129);
+}
+
+.card:nth-child(4n+2), .card:nth-child(4n+1) {
+  background-color: rgb(207, 66, 120);
 }
 
 .card p {
@@ -60,6 +64,7 @@ nav ul {
   align-items: center;
   color: #fff;
   margin-top: 45px;
+  height: 100%;
 }
 
 .pollutionContainer h3 {
@@ -81,10 +86,16 @@ nav ul {
   justify-content: space-between;
   padding: 10px 25px;
   background-color: rgb(219, 70, 129);
+  cursor: pointer;
 }
 
 .pollutionContainer ul li:nth-child(even) {
   background-color: rgb(207, 66, 120);
+}
+
+.pollutionContainer ul li:last-child {
+  justify-content: center;
+  gap: 1rem;
 }
 
 .countryDetails {
