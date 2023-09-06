@@ -61,7 +61,7 @@ Air pollution is a single page application (SPA), where users can select any cou
 
 ## 🌍 Online Version <a name="online-version"></a>
   
-  [Live version](https://anshuman7negi.github.io/Kanban_board/dist/)
+  [Live version](https://pollution.onrender.com/)
 
 ## 📹 Video Presentation <a name="Video-Presentation"></a>
   
